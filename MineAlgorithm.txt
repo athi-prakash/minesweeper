@@ -1,0 +1,16 @@
+Random
+------
+Shuffle function of the collections library is used to achive random maps of mines.
+An arraylist containing the id/numbers representing each postion is created. The 
+arraylist is then shuffled using the shuffle fuctions of collections library. After 
+shuffleing the first n numbers are picked as the location id to place the mines.
+n is decided based on the user's choice of difficulty.The process is more efficient 
+in generating unique random values, since using random will have a lot of unwanted 
+iteration on already used number. The number of unwanted iterations is directly
+proportional to the ratio of data to space. The unwanted iterations are avoided by
+using shuffle.
+
+
+References
+
+[1]G. Java, "Generating Unique Random Numbers in Java", Stackoverflow.com, 2017. [Online]. Available: https://stackoverflow.com/questions/8115722/generating-unique-random-numbers-in-java. [Accessed: 21- Oct- 2017].
